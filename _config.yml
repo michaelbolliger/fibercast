@@ -1,0 +1,2 @@
+baseurl: /fibercast
+exclude: ['README.md']
