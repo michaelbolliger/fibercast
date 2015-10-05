@@ -3,4 +3,11 @@ layout: default
 ---
 
 <h1>News</h1>
-<p>Some new article will show up here.</p>
+<ul>
+  {% for news in site.posts %}
+  <li>
+    <a href="">{{news.title}}</a>
+    <p>{{news.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>
