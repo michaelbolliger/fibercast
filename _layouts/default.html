@@ -2,8 +2,9 @@
 <html lang="de">
   <head>
     <meta charset="utf-8">
-    <title>Fibercast</title>
+    <title>{% if page.title %}{{page.title}} | {% endif %}Fibercast</title>
     <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
+    <meta name="description" content="{{page.meta}}"
   </head>
   <body>
   <header>

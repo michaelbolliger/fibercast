@@ -4,9 +4,10 @@ layout: default
 
 <h1>News</h1>
 <ul>
-  {% for news in site.posts %}
+  {% for news in site.categories.news %}
   <li>
-    <a href="">{{news.title}}</a>
+    <img class="img-thumbnail" src="{{site.baseurl}}/img/{{news.article-image-name}}-thumbnail.jpg" alt="">
+    <a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
     <p>{{news.meta}}</p>
   </li>
   {% endfor %}

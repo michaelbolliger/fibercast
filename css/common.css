@@ -25,3 +25,8 @@ html {
 .nav-top {
   font-size: 1.25rem;
 }
+
+.img-thumbnail {
+  width: 200px;
+  height: auto;
+}
