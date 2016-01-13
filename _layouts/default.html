@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{page.title}} | {% endif %}Fibercast</title>
     <link rel="stylesheet" href="{{site.baseurl}}/css/common.css">
-    <meta name="description" content="{{page.meta}}"
+    <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+    <link rel="canonical" href="{{site.baseurl}}{{page.url}}">
   </head>
   <body>
   <header>

@@ -1,10 +1,10 @@
 ---
 layout: news
 title: Moonlanding confirmed
-meta: First man has been landed on the surface of the moon.
+description: First man has been landed on the surface of the moon.
 source:
 article-image-name: moonlanding
-article-video:
+article-video-link:
 category: news
 ---
 
